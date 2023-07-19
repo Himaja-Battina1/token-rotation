@@ -7,7 +7,7 @@ WORKDIR /app
 COPY roll-token.sh /app/roll-token.sh
 
 # Set the script file as executable
-RUN chmod +x /app/roll-token.sh
+#RUN chmod +x /app/roll-token.sh
 
 # Run the script file when the container starts
 CMD ["/app/roll-token.sh"]

@@ -10,4 +10,4 @@ COPY roll-token.sh /app/roll-token.sh
 #RUN chmod +x /app/roll-token.sh
 
 # Run the script file when the container starts
-ENTRYPOINT ["sh /app/roll-token.sh"]
+CMD ["sh /app/roll-token.sh"]
